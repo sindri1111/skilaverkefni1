@@ -1,0 +1,66 @@
+
+body
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+}
+
+.photos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.video{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 100px;
+
+}
+
+
+  ul {
+      float: left;
+  list-style-type: none;
+  margin: 0 auto;
+  padding-top: 50px;
+  }
+
+
+p{
+    line-height: 1.6;
+    position: static;
+    border: 3px solid #73AD21;
+    stroke: aqua;
+}
+
+
+.space{
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.06), rgba(4,9,30,0.06)), url("Photos/Image 05-02-2022 at 16.00.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+
+}
+a{
+     text-decoration: none;
+    font-size: 16px;
+    padding-right: 120px;
+    padding-top: 120px;
+    color: burlywood;
+
+
+
+}
+a:hover{
+    color: #fff;
+}
